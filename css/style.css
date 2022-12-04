@@ -1,0 +1,290 @@
+
+header{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)), 
+    url(../images/back\ ground\ 7\ -\ Copy.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    }
+    .logo{
+            margin-top: 20px;
+            height: 100px;
+            border-radius: 50px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     
+      
+    }
+    
+    .main-nav{
+     
+        list-style: none;
+    }
+    .main-nav li{
+        display: inline-block;
+        margin-right: 30px; 
+
+    
+    }
+    .main-nav li a{
+        color:white;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    .main-nav li a:hover{
+        color: orangered;
+        text-decoration: underline;
+    }
+    .salute{
+        position: absolute;
+        top: 40%;
+    }
+    
+    h1{
+        color: red;
+        font-size: 3rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        word-spacing: 5px;
+        margin-bottom: 80px;
+      
+    }
+    
+    section{
+        padding: 40px 0px;
+       
+    
+    }
+    h2{
+        text-align: center;
+        font-size:2.3rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        word-spacing: 2px;
+        margin-bottom: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 20px;
+    }
+    h2::after{
+        content: "";
+        display: block;
+        width: 150px;
+        height: 5px;
+        background-color: rgb(4, 129, 4);
+        margin: 50px auto;
+
+    }
+   
+    #Advantages{
+    text-align: center;
+    margin-bottom: 50px;
+   
+    }
+    #Advantages i {
+        margin-top: 20px ;
+        font-size: 50px;
+        color:red;
+        margin-bottom: 50px;
+
+    }
+    #Advantages h3{
+        color:darkred;
+        font-size: 1.5rem;
+        
+        background:linear-gradient(rgba(235, 158, 158, 0.3),
+        rgba(97, 84, 84, 0.3));
+        border-radius: 50px;
+    }
+    #Advantages p{
+        color:darkorange;
+        font-size: 1.5rem;
+        padding-right: 20px;
+        padding-left: 20px;
+        
+      
+    }
+   #kinds{
+    background:linear-gradient(rgba(216, 150, 150, 0.37),
+    rgba(168, 165, 165, 0.404));
+   }
+    
+    .kind img{
+        width: 50%;
+        height: 500px; 
+     
+        /* border-radius: 100px; */
+        background-attachment: fixed;
+        background-size: cover;
+        /* border:solid 5px  brown ;  */
+      
+       
+    }
+    .kind h2{
+        font-size: 2.5rem;
+    }
+    .kind p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-bottom: 50px;
+        color:  red;
+        margin-right: 30px;
+    }
+
+ #Opinions
+{
+   
+background:linear-gradient(rgba(0, 0, 0, 0.3),
+rgba(0, 0, 0, 0.3)), 
+url(..//images/back\ ground\ 2\ -\ Copy.jpg);
+
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+color: #fff;
+
+}
+#Opinions i{
+font-size: 50px;
+
+
+}
+#Opinions p{
+line-height: 1.5;
+font-size: 1.3rem;
+}
+#Opinions img{
+width: 70px;
+border-radius: 50%;
+vertical-align: middle;
+margin-right: 10px;
+}
+form{
+    padding-top: 60px;
+}
+label{
+    margin-bottom: 70px;
+    color: red;
+    font-size: 1.3rem;
+
+}
+input[type=text] ,
+input[type=email] ,
+select , textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border: solid 2px black ;
+    border-radius: 10px;
+    /* background-color:pink; */
+}
+input[type=checkbox] {
+    margin-bottom: 25px ;
+    margin-top: 15px ;
+    margin-left: 50px;
+   
+}
+button{
+
+    padding: 10px 30px;
+    background-color:darkred ;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 30px;
+    border: solid black  3px;
+
+
+}
+button:hover{
+background-color:rgb(31, 187, 235) ;
+color: white;
+font-size: 1.5rem;
+font-weight: 500;
+
+}
+
+.btn2{
+    background-color:#4a555c ;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 30px;
+    
+    border-radius: 80px;
+    border:  solid 4px rgb(219, 130, 47);
+}
+.btn2:hover{
+background-color: rgb(6, 6, 122);
+
+text-decoration: none;
+}
+
+
+
+.btn2 i{
+    font-size: 100px;
+    padding-top: 50px;
+    color:rgb(31, 187, 235);
+   padding-bottom: 50px;
+   padding-right: 150px;
+   padding-left: 150px;
+ 
+}
+.btn2 a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+.btn2 a::after{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+footer{
+    background-color:black;
+    padding:40px 0px;
+}
+
+footer p {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 50px;
+}
+.footer-nav , .social-nav{
+    list-style: none;
+    display: flex;
+
+}
+.footer-nav{
+    font-size: 1.2rem;
+}
+.social-nav{
+    float: right;
+}
+.footer-nav li , .social-nav li{
+margin-right: 20px;
+}
+.footer-nav li a, .social-nav li a{
+    text-decoration: none;
+    color:white;
+}
+.footer-nav li a:hover, .social-nav li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+    
+
+    
